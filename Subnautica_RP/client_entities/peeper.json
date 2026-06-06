@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "subnautica:peeper",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/peeper" },
+      "geometry": { "default": "geometry.peeper" },
+      "animations": {
+        "swim": "animation.peeper.swim"
+      },
+      "scripts": {
+        "animate": [ "swim" ]
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}
