@@ -1,0 +1,44 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "subnautica:peeper",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:physics": {
+        "has_gravity": true
+      },
+      "minecraft:type_family": {
+        "family": [ "fish", "peeper" ]
+      },
+      "minecraft:health": {
+        "value": 4,
+        "max": 4
+      },
+      "minecraft:movement": {
+        "value": 0.3
+      },
+      "minecraft:navigation.swim": {
+        "can_path_from_air": true,
+        "can_sink": true
+      },
+      "minecraft:movement.swim": {},
+      "minecraft:ambient_sound_interval": {
+        "value": 8.0,
+        "range": 16.0,
+        "event_name": "ambient.in.water"
+      },
+      "minecraft:behavior.swim_idle": {
+        "priority": 1,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:behavior.panic": {
+        "priority": 0,
+        "speed_multiplier": 2.0
+      }
+    }
+  }
+}
