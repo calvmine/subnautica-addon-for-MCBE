@@ -1,8 +1,8 @@
 {
-  "resource_pack_name": "subnautica_rp",
+  "resource_pack_name": "Subnautica_RP",
   "texture_name": "atlas.items",
   "texture_data": {
-    "subnautica_survival_knife": {
+    "survival_knife": {
       "textures": "textures/items/survival_knife"
     }
   }
