@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Subnautica Behavior Pack",
+    "description": "Logic and behaviors for Subnautica features.",
+    "uuid": "4f181be3-8d26-47b2-bd72-ceea79815041",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "79b329a2-4db1-4c6e-8215-6bb0887bf911",
+      "version": [1, 0, 0]
+    }
+  ]
+}
